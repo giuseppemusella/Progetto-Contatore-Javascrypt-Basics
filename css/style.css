@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 100%;
+	margin: 0;
+}
+
+.contenitore {
+    position: absolute;
+    top: 35%;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 85px;
+}
+
+.stileContatore {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+
+p {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pulsantiera {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+button {
+    padding: 10px 25px;
+    border: 0px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+			
+.button-plus {
+	background-color: #20c997;
+	color: white;
+	border: 1px solid green;	
+}
+
+.button-plus:hover {
+	background-color: #28a745;	
+}
+
+.button-minus {
+	background-color: #007bff;
+	color: white;
+	border: 1px solid blue;
+}
+
+.button-minus:hover {
+	background-color: blue;
+} 
+
+.button-cancel {
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+}
+
+.button-cancel:hover {
+	background-color: #dc3545;
+}
